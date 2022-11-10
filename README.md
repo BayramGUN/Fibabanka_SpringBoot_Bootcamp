@@ -70,9 +70,7 @@ POST /commerce/shopping/cart/add
 ```
 
 <img src="https://i.hizliresim.com/8rq4lbj.png" alt="photo-8"/><br>
-(not: DBye eklemesine rağmen bu hata dönüyor. Hatanın 2 mikro servisinde aynı porttan <br>
-DB server'a bağlanıp işlem yapmaya zorlanmalarına yoruyorum. Düzeltilebilir bir hata <br>
-fakat vakit kalmadığı için bu ne yazıkki şekilde teslim ediyorum.)
+(Note: This error returns despite adding it to the database. I attribute the error to the two microservices of the error being forced to connect to the database server from the same port and perform operations. It is a fixable error, but unfortunately I am submitting this as there is no time left.)
 
 <br>
 <br>
