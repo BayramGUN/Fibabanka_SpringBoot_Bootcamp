@@ -1,0 +1,13 @@
+package io.api.inventory.data.repository;
+
+import io.api.inventory.data.entity.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.Collection;
+@Repository
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+    Category findCategory(String categoryName);
+}
